@@ -42,9 +42,9 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  top: 10%;
+
   text-align: center;
-  left: 50%;
+ 
   height: auto; 
 }
 @media (max-width: 480px) {
@@ -55,15 +55,44 @@
       margin-left: -40%; /* Half of the width */
   }
 }
-.v{
-  background-color: #61dafb;
-  height: 50px;
+.v {
+ 
+  height: 550px;
   width: 50px;
   color: rgb(246, 2, 217);
   border-color: black;
   border-radius: 20%;
+
+  color: rgb(246, 2, 217);
+  border-color: black;
+  border-radius: 20%;
   align-items: center;
-  justify-content: center;
-  margin: 5px;
+  text-align: center;
+  top: 10%;
+  width: auto;
 }
 
+.r {
+  
+  
+  color: rgb(246, 2, 217);
+  border-color: black;
+  border-radius: 20%;
+  text-align: center;
+  align-items: center;
+
+  color: rgb(246, 2, 217);
+  border-color: black;
+  border-radius: 20%;
+ 
+  margin: 5px;
+  left: 50%;
+
+  color: rgb(246, 2, 217);
+  border-color: black;
+  border-radius: 20%;
+  align-items: center;
+  text-align: center;
+  top: 10%;
+ width: auto;
+}
