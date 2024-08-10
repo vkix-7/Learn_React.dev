@@ -22,11 +22,11 @@ const About = () => {
         <div class="value-container">
         <div class="value">
             <h3>We value purpose</h3>
-            <p>Goal-oriented and outcome-led, we're optimistic about what Pienso can do for people and pragmatic about the learning curve to get there. With expertise and empathy, we guide our users to their 'eureka' moment when use becomes understanding - and we look for those moments in our own work.</p>
+            <p>Goal-oriented and outcome-led, we're optimistic about what we can do for people and pragmatic about the learning curve to get there. With expertise and empathy, we guide our users to their 'eureka' moment when use becomes understanding - and we look for those moments in our own work.</p>
         </div>
         <div class="value">
             <h3>We value humility</h3>
-            <p>We do all of the above with humility because we're always learning, too. Our customers continually surprise us with the scope of their ideas, taking Pienso places we hadn't considered ourselves. We respect the innovators who have come before us, the experts of today, and the world we're building together.</p>
+            <p>We do all of the above with humility because we're always learning, too. Our customers continually surprise us with the scope of their ideas, taking we places we hadn't considered ourselves. We respect the innovators who have come before us, the experts of today, and the world we're building together.</p>
         </div>
     </div>
  

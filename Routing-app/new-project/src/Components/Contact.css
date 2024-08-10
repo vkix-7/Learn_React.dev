@@ -1,31 +1,42 @@
-img {
-    
-   border: 2px;
-    max-width: 150%;
-    padding: 0;
-    }
-    .container {
+
+    .container2 {
         background-color: #ebd4d4;
         padding: 24px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        border-radius: 30px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
         display: flex;
         margin-top:25px ;
+        flex-direction: row;
+       height: 80vh;
+       width: 90vw;
+       align-items: center;
+       justify-content: center;
+       
+       margin-left: 50px;
     }
 
     .left {
-        background-color: #181818;
-        width: 50%;
+        
+        flex-basis: 50%;
+        min-width: 300px;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 0;
+    }
+    .left img{
+        border: 25px;
+        border-color: black;
+        max-width: 100%;
         
     }
 
     .right {
-        width: 50%;
-        padding: 20px;
+    
+      
+        min-width: 300px;
+        
     }
 
     h1 {
@@ -54,7 +65,7 @@ img {
         width: 100%;
         padding: 10px;
         border: 1px solid #ccc;
-        border-radius: 5px;
+        border-radius: 20px;
         box-sizing: border-box;
     }
 
@@ -81,3 +92,27 @@ img {
         cursor: pointer;
         width: 100%;
     }
+
+
+
+
+/* Style for left and right sections */
+.left, .right {
+ 
+    flex: 1;
+}
+
+/* Different background colors for distinction */
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+    .container2 {
+        flex-direction: column;
+        height: 200vh;
+        margin-left: 25px;
+    }
+
+    .left, .right {
+        height: 50%;
+    }
+}

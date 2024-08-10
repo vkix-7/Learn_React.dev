@@ -2,7 +2,7 @@ import React from 'react'
 import './Contact.css';
 const Contact = () => {
   return (
-    <div class="container">
+    <div class="container2">
     <div class="left">
         <img src="https://img.freepik.com/premium-photo/man-with-microphone-with-laptop-computer-concept-illustration-support-assistance-call-center_960782-50352.jpg"  alt="Image"/></div>
     <div class="right">
