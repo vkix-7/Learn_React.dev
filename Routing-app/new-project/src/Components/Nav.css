@@ -1,0 +1,70 @@
+/* Navbar CSS Styles */
+.navbar {
+    background-color: #84456f;
+    padding: 0.2rem;
+    display: flex;
+  border-radius: 30px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0  ;
+    display: flex;
+  }
+  .right ul {
+    display: flex;
+    color: aliceblue;
+    gap : 45px;
+    margin-right: 100px;
+  }
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+color: azure;
+margin-right: 504px;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #77aa30;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+    }
+    .nav-links li {
+      margin-right: 0;
+    }
+    .nav-links a {
+      padding: 10px;
+    }
+    .cta-btn {
+      padding: 10px 15px;
+    }
+  }

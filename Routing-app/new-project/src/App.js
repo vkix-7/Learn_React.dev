@@ -9,7 +9,6 @@ function App() {
   return (
     <div className="App"> <Nav/>
       <header className="App-header">
-       
         <Routes>
         <Route path="/" Component={Home}></Route>
         <Route path="/About" Component={About}></Route>

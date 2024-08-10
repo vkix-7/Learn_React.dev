@@ -1,0 +1,11 @@
+
+   input{
+    margin-right: 10px;
+    height: 25px;
+    }
+    button{
+    height: 30px;
+    width: 90px;
+    background-color: rgb(97, 148, 207);
+    border-radius: 10px;
+    }
